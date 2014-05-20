@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-Noparty::Application.config.secret_key_base = secure_token
+Events::Application.config.secret_key_base = secure_token
