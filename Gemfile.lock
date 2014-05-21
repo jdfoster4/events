@@ -67,6 +67,7 @@ GEM
       railties (>= 3.0.0)
     ffi (1.9.3)
     formatador (0.2.4)
+    fullcalendar-rails (1.6.4.0)
     guard (2.6.1)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -200,6 +201,7 @@ DEPENDENCIES
   capybara (= 2.1.0)
   coffee-rails (= 4.0.1)
   factory_girl_rails
+  fullcalendar-rails
   guard-livereload
   guard-rspec
   jbuilder (= 1.0.2)
