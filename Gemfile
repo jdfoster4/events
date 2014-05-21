@@ -33,6 +33,7 @@ gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'bcrypt', '~> 3.1.7', require: 'bcrypt'
 gem 'fullcalendar-rails'
+gem 'unicorn'
 
 group :production do
   gem 'pg', '0.15.1'
