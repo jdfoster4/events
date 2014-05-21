@@ -1,5 +1,14 @@
 Events::Application.routes.draw do
+  root 'static_pages#index'
   resources :events
+  # namespace 'static_pages' do
+  #   resources :about, only: [:index]
+  # end
+
+  get '/about'   => 'static_pages#about'
+  get '/contact' => 'static_pages#contact'
+  get '/help'    => 'static_pages#help'
+  get '/about/:pages' => 'static_pages#about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
