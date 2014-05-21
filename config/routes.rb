@@ -1,9 +1,6 @@
 Events::Application.routes.draw do
   root 'static_pages#index'
   resources :events
-  # namespace 'static_pages' do
-  #   resources :about, only: [:index]
-  # end
 
   get '/about'   => 'static_pages#about'
   get '/contact' => 'static_pages#contact'
