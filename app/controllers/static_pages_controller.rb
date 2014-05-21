@@ -8,6 +8,7 @@ class StaticPagesController < ApplicationController
   end
 
   def documents
+    render "documents"
   end
 
   private
